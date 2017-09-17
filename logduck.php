@@ -1,5 +1,8 @@
 #!/usr/bin/php
 <?php
+	# Copyright (c) 2017 Mikkel Mikjær Christensen
+	# Licensed under GNU GPL v2
+
 	$tail_lines = 1000;		# This will result in an upper limit of 1000req/s	
 	$sample_size = 10;		# Number of seconds to go back in time
 	$top_n = 20;			# How many logs to show
